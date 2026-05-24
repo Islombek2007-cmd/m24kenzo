@@ -1,0 +1,27 @@
+# Secrets and config
+config.js
+.env
+.env.local
+.env.production
+*.key
+*.pem
+
+# Dependencies
+node_modules/
+
+# Build files (Vercel will rebuild these anyway)
+dist/
+build/
+.vite/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
